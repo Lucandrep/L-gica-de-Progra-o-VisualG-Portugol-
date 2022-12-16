@@ -1,0 +1,16 @@
+Algoritmo "sequencias_impares"
+
+Var
+   X,i:inteiro
+
+
+Inicio
+   escreva("Digite um valor de X:")
+   leia(X)
+   para i de 1 ate X faca
+      se i % 2 <> 0 entao
+         escreval(i)
+      fimse
+   fimpara
+
+Fimalgoritmo
